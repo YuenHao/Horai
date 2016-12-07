@@ -9,7 +9,10 @@
     <version>0.1</version>
     <modules>
         <module>horai-core</module>
+        <module>horai-jobtracker</module>
         <module>horai-monitor</module>
+        <module>horai-startup</module>
+        <module>horai-tasktracker</module>
     </modules>
     <packaging>pom</packaging>
     <url>https://github.com/YuenHao/Horai.git</url>

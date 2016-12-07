@@ -6,5 +6,6 @@ package com.github.horai.tasktracker.runner;
  */
 public interface TaskRunner {
 
+    //任务执行逻辑
     TaskResult run(TaskContext taskContext);
 }

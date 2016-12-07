@@ -11,5 +11,23 @@
 
     <artifactId>horai-startup</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.github.horai</groupId>
+            <artifactId>horai-core</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <sourceDirectory>src/main/java</sourceDirectory>
+        <testSourceDirectory>src/test/java</testSourceDirectory>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+            </resource>
+        </resources>
+
+    </build>
 
 </project>

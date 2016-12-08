@@ -1,13 +1,12 @@
 package com.github.horai.core.cluster.registry;
 
-import com.github.horai.core.cluster.AbstractHoraiNodePPE;
-import com.github.horai.core.cluster.HoraiNode;
+import com.github.horai.core.cluster.HoraiNodeConfig;
 
 /**
  * Created by yh on 2016/12/8.
  * 节点注册接口
  */
-public interface Registry<T extends AbstractHoraiNodePPE> {
+public interface Registry<T extends HoraiNodeConfig> {
 
     /**
      * 节点注册
